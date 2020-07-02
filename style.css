@@ -22,6 +22,10 @@ form.signin-form{
   margin: auto;
 }
 
+div.form-group{
+  display: block;
+  padding: 10px 0;
+}
 div.signin-logo{
   margin: auto;
 }
@@ -30,7 +34,6 @@ img.signin-img{
   padding: 0 2rem 2rem;
   display:block;
   margin: auto;
-  width:35%;
   padding-bottom: 0;
 }
 
@@ -76,7 +79,7 @@ button.signin-button{
   background-image: linear-gradient(to right, #009245, #FCEE21);
   box-shadow: 0 0 15px 0 rgba(83, 176, 57, 0.75);
   margin-bottom: 1.2rem;
-  margin-top: 1.2rem;
+  margin-top: 3rem;
 }
 
 a.create-new-account{
