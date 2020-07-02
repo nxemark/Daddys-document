@@ -10,23 +10,47 @@
    <title>Hello, world!</title>
  </head>
 
- <body>
-
-   <div class="container-fluid">
+ <body class="signin-background">
+   <div class="container signin-container">
      <div class="row">
-       <div class="col-sm-6">Col 1</div>
-       <div class="col-sm-6"> Col 2</div>
-     </div>
-     <div class="row">
-       <div class="col-sm-6 col-lg-4">Col 3</div>
-       <div class="col-sm-6 col-lg-4">Col 4</div>
-       <div class="col-sm-12 col-lg-4">Col 5</div>
+       <div class="col"></div>
+       <div class="col-5">
+         <div class="card signin-card">
+           <div class="card-block">
+             <div class="signin-logo">
+               <img src="images/signinimage.png" class="img-fluid signin-img">
+               <div class="markade">
+                 <p class="m">M</p>
+                 <p class="a">a</p>
+                 <p class="r">r</p>
+                 <p class="k">k</p>
+                 <p class="second-a">a</p>
+                 <p class="d">d</p>
+                 <p class="e">e</p>
+               </div>
+             </div>
+             <form class="signin-form">
+               <div class="form-group">
+                 <input type="email" class="form-control" id="emailInput" placeholder="Email">
+               </div>
+               <div class="form-group">
+                 <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+               </div>
+               <a class="forgot-password" href="#">Forgot your password ?</a>
+               <button type="button" class="btn signin-button btn-lg">Sign In</button>
+               <div class="form-check">
+                 <label class="form-check-label">
+                   <input class="form-check-input" type="checkbox"> Remember me <a href="#">Need help ?</a>
+                 </label>
+               </div>
+             </form>
+           </div>
+         </div>
+        <a  class="create-new-account"href="#">Create New Account</a>
+       </div>
+       <div class="col"></div>
      </div>
    </div>
-
-
-
-
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
    <script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
